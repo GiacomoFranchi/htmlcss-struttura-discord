@@ -6,7 +6,7 @@
 
 /*Root*/
 :root{
-    --bg-header: 
+    --border: 1px dashed black; 
 }
 
 /*Stili Header*/
@@ -27,12 +27,12 @@
     margin: 10px auto;
 
 }
-
+/*Stili sezioni Toolbar*/
 .toolbar-box{
     height: 30px;
     width: calc(40% /2);
     background-color: orange;
-    border: 1px dashed black;
+    border: var(--border);
     align-self: center;
     line-height: 30px;
     padding-left: 10px;
@@ -48,8 +48,62 @@
     padding-right: 10px;
 }
 
+/*Stili Sezione Header*/
 .container{
     width: 100%;
     background-color: blue;
-    min-height: 200px;
+    min-height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxrosa{
+    width: 60%;
+    background-color: palevioletred;
+    height: 200px;
+    border: var(--border);
+}
+
+/*Stili Sezioni Main*/
+.row{
+    width: 100%;
+    margin: auto;
+}
+
+.grigia{
+    background-color: lightgray;
+}
+.sezione-due-porzioni{
+    width: 70%;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.porzione-blu{
+    width: 70%;
+    height: 200px;
+    background-color:cyan ;
+    border: var(--border);
+}
+
+.porzione-rosa{
+    width: 30%;
+    height: 200px;
+    background-color: pink;
+    border: var(--border);
+}
+
+.sezione-due-porzioni{
+    width: 70%;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.inversa{
+    flex-direction: row-reverse;
 }
