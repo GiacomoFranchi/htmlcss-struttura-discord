@@ -16,7 +16,6 @@
     height: 300px;
     display: flex;
     flex-direction: column;
-
 }
 
 .toolbar{
@@ -25,8 +24,8 @@
     height: 50px;
     align-items: center;
     margin: 10px auto;
-
 }
+
 /*Stili sezioni Toolbar*/
 .toolbar-box{
     height: 30px;
@@ -38,6 +37,15 @@
     padding-left: 10px;
 }
 
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    margin: 0 .5rem;
+}
 .centrale{
     width: 60%;
     text-align: center;    
@@ -48,7 +56,7 @@
     padding-right: 10px;
 }
 
-/*Stili Sezione Header*/
+/*Stili Hero*/
 .container{
     width: 100%;
     background-color: rgb(0 0 139);
